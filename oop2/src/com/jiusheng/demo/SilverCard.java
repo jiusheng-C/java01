@@ -2,6 +2,10 @@ package com.jiusheng.demo;
 
 public class SilverCard extends Card{
     public SilverCard(String carId, String name, String phone, double money) {
+        setCarId(carId);
+        setName(name);
+        setPhone(phone);
+        setMoney(money);
     }
 
     @Override
