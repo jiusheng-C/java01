@@ -2,6 +2,10 @@ package com.jiusheng.demo;
 
 public class GoldCard extends Card{
     public GoldCard(String carId, String name, String phone, double money) {
+        setCarId(carId);
+        setName(name);
+        setPhone(phone);
+        setMoney(money);
     }
 
     @Override
